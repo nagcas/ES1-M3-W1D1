@@ -1,0 +1,106 @@
+/* ESERCIZIO 1) Crea un selettore per selezionare l'<h1> nella sezione "hero", ovvero nel jumbotron ok */
+.jumbotron h1 {
+    color: rgb(88, 88, 223);
+}
+
+
+/* ESERCIZIO 2) Crea un selettore per selezionare tutti i figli dell'elemento navbar */
+nav span {
+    color: rgb(88, 88, 223);
+    cursor: pointer;
+}
+
+
+/* ESERCIZIO 3) Crea un selettore per selezionare il link "Continua a leggere" del jumbotron */
+.jumbotron .lead.mb-0 a {
+    border: 1px solid rgb(88, 88, 223);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/* ESERCIZIO 4) Crea un selettore per selezionare il primo blog post */
+.blog-post:first-of-type {
+    border: 2px solid rgb(88, 88, 223);
+}
+
+
+/* ESERCIZIO 5) Crea un selettore per selezionare l'<hr> del primo blog post e colorarlo di rosso */
+.blog-post:first-of-type hr {
+    border: 1px solid red;
+}
+
+
+/* ESERCIZIO 6) Crea un selettore per selezionare i link pari della navbar */
+nav span:nth-of-type(even) {
+    border: 1px solid rgba(115, 115, 245, 0.993);
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(115, 115, 245, 0.582);
+}
+
+
+/* ESERCIZIO 7) Crea un selettore per selezionare tutti gli <li> della prima "ordered-list" della sidebar ("Archivio") */
+aside .list-unstyled.mb-0 li {
+    margin: 5px 0;
+    border: 1px solid rgba(115, 115, 245, 0.993);
+    background-color: rgba(115, 115, 245, 0.582);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+aside .list-unstyled.mb-0 li a {
+    color: #fff;
+}
+
+
+/* ESERCIZIO 8) Crea un selettore per selezionare l'autore del secondo blog post */
+.blog-post:nth-last-of-type(even) .blog-post-meta a {
+    border: 1px solid rgba(115, 115, 245, 0.993);
+    background-color: rgba(115, 115, 245, 0.582);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+/* ESERCIZIO 9) Crea un selettore per selezionare il secondo <li> della lista del terzo blog post */
+.blog-post:last-of-type ul li:nth-last-of-type(even) {
+    border: 1px solid rgba(115, 115, 245, 0.993);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+/* ESERCIZIO 10) Crea un selettore per selezionare il link "Torna su" che trovi a fondo pagina nell'angolo in basso a destra */
+.float-right.mb-3.mr-3 {
+    border: 1px solid rgba(115, 115, 245, 0.993);
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(115, 115, 245, 0.582);
+    color: #fff;
+}
+
+
+/* ESERCIZIO 11) Crea un selettore per selezionare il bottone "Nuovi" che trovi in basso */
+.btn.btn-outline-secondary.disabled {
+    border: 1px solid rgba(115, 115, 245, 0.993);
+    border-radius: 5px;
+    padding: 6px;
+    background-color: rgba(115, 115, 245, 0.582);
+    color: #fff;
+}
+
+
+
+/* ESERCIZIO 12) Crea un selettore per selezionare il secondo link del footer */
+.blog-footer a:last-child {
+    border: 1px solid rgba(115, 115, 245, 0.993);
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(115, 115, 245, 0.582);
+    color: #fff;
+}
+
+
+
+
